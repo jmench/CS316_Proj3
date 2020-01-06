@@ -1,0 +1,29 @@
+Author: Jordan Menchen
+
+References:
+    https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
+    https://regex101.com/
+
+Collaboration:
+    N/A
+
+Description:
+    This project is simple web server that is written in nodejs. The server
+    performs 3 basic actions:
+
+        1. UNLINK: removes a file (if it exists)
+        2. SIZE: returns the size of a file (if it exists)
+        3. FETCH: returns the contents of a file (if it exists)
+
+    To run this, simply navigate to the directory where myhttp.js is located
+    and type the command "node myhttp.js". This will start the server locally
+    on the randomly selected port (portnum). See the console for the port, and
+    then go on your browser and navigate to "localhost:(portnum)". Here you can
+    perform the 3 basic actions on files located in the WEBSERVER folder, as
+    long as the URL is correct.
+
+Questions:
+    1. It doesn't matter - the port is the locally allocated (localhost). If
+    it were on the cs server, this error would show: Error! EADDRNOTAVAIL.
+
+    2. I get no error messages for running 
